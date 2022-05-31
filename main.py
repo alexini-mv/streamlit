@@ -1,8 +1,5 @@
-import time
-from re import A
 import pandas as pd
 import streamlit as st
-from st_aggrid import AgGrid
 
 
 # IMPORTAMOS LOS DATOS A UN DATAFRAME
@@ -13,8 +10,7 @@ st.write("""
 ## Modelo Cinético de la Liberación de Neurotransmisor
 
 **Presentamos los resultados de la simulación estocástica del modelo cinético.**
-"""
-         )
+""")
 
 st.write(df.head())
 
